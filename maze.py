@@ -13,7 +13,8 @@ mixer.music.load('jungles.ogg')
 mixer.music.play()
 kick = mixer.Sound('kick.ogg')
 money = mixer.Sound('money.ogg')
-
+def hiihl():
+    pass
 font.init()
 font1 = font.SysFont("Algerian", 50)
 win = font1.render('You Win', True, (0,255,0))
